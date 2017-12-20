@@ -1,15 +1,15 @@
 // Load the wordlist - based on:
 // http://www.mieliestronk.com/corncob_caps.txt
  var wordList = [];
-getList('/wordlist.txt', function(x) { wordList = x });
+getList('wordlist.txt', function(x) { wordList = x });
 
  // Load prefix list
  var prefixList = [];
- getList('/prefixlist.txt',  function(x) { prefixList = x });
+ getList('prefixlist.txt',  function(x) { prefixList = x });
 
  // Load suffix list
  var suffixList = [];
- getList('/suffixlist.txt',  function(x) { suffixList = x });
+ getList('suffixlist.txt',  function(x) { suffixList = x });
 
 
  function getList(url, f) {

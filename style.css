@@ -106,13 +106,20 @@
 
             #footer {
                 color: #FFF;
-                height: 50px;
+                height: auto;
                 background: rgba(0, 0, 0, 0.5);
                 padding: 10px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
+            }
+
+            #footer a, #footer a:visited, #footer a:active {
+                margin-top: 8px;
+                color: #c3f2ff;
+                text-decoration: underline;
+                text-transform: lowercase;
             }
 
             .bold {

@@ -33,7 +33,7 @@ getList('wordlist.txt', function(x) { wordList = x });
      do {
         var showSuffix = (Math.random() > 0.5);
         var showPrefix = (Math.random() > 0.5);
-     } while(!showSuffix || !showSuffix);
+     } while(!showPrefix && !showSuffix);
 
      if(showPrefix)
      {
